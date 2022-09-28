@@ -20,6 +20,9 @@ const Login = () => {
         title:'welcome',
         text:'user login!!'
       })
+      const data = await response.json();
+      sessionStorage.setItem('user', JSON.stringify(data));
+      
     }else if(response.status===401) 
     {
       Swal.fire({

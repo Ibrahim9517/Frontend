@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <header className='position-sticky top-0'>
+    <header className='position-sticky top-0 '>
   {/* Navbar */}
   <nav className="navbar navbar-expand-lg navbar-light bg-white ">
     <div className="container-fluid">
@@ -36,8 +36,8 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="musicplay">
-              MusicPlay
+            <NavLink className="nav-link" to="browsemusic">
+            Songs
             </NavLink>
             </li>
         </ul>
